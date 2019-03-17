@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <head>
 	<title>Netscape to JSON</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
 <body>
-	<div>
+	<div class="container">
+	<div class="row justify-content-center">
+	<div class="col-6">
+	<div class="card">
+	<div class="card-header text-white text-center bg-info">
+		<i class="fab "></i>
 		Convert netscape stealer log to json log
-		</br>
-		We do not steal your files if you want to make sure that, check the source code here <a href="https://github.com/All-Man/All-Man.github.io">https://github.com/All-Man/All-Man.github.io</a>
-		</br>
-		</br>
+	</div>
+	<div class="card-body">
+		
+
+		We do not steal your files if you want to make sure that, check the source code here <a href="https://github.com/All-Man/All-Man.github.io">https://github.com/All-Man/All-Man.github.io</br></a>
+		<div class="input-group mb-3">
 		<input type='file' accept='text/plain' onchange='openFile(event)'>
+		</div>
+		<div class="input-group mb-3">
 		<button id="convert">
 			  convert to json
 		</button>
 		<input type='text' id="output-filename" placeholder="json output filename">
-	</div>
+		</div>
 	</br>
 	</br>
 	<a href="/"><- Go back</a>
 	<script src="js/Netscape-JSON/convert.js"></script>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
 </body>
 </html>
