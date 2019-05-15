@@ -1,0 +1,43 @@
+
+.on {
+  background: red;
+}
+
+.off {
+  background: gray;
+}
+
+div {
+  margin-top: 20px;
+}
+
+#instructions {
+  font-size: 20px;
+}
+
+.bit-number {
+  font-size: 40px;
+  margin: 2px;
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#timer {
+  width: 200px;
+  font-size: 60px;
+  text-align: left;
+}
+
+#number {
+  font-size: 60px;
+}
+
+.selected {
+  background: blue;
+}

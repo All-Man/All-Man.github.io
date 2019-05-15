@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css'>
+    <link href="css/Bit-Creator/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="mode">
+      <button id="bit3">3 bits (easy)</button>
+      <button id="bit8" class="selected">8 bits (hard)</button>
+      <br/><br/>
+      <button id="practice">practice mode<br/>(repeats OK)</button>
+      <button id="challenge" class="selected">challenge mode<br/>(no repeats)</button>
+    </div>
+    <div id="instructions">
+      <p>Create each <span id="bitNumber">8</span>-bit number by flipping the bits with <span id="keys">A, S, D, F, J, K, L, and ;</span> keys.</p>
+      <p>Don't do the same number twice or you'll have to start over!</p>
+      <p>Try to get the fastest time!</p>
+    </div>
+    <div id="bits"></div>
+    <div id="number">0</div>
+    <div id="controls">
+      <button id="reset">Reset</button>
+    </div>
+    <div id="timer">
+      
+    </div>
+    <script src="js/Bit-Creator/script.js"></script>
+  </body>
+</html>
