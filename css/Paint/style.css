@@ -1,0 +1,97 @@
+#canvas
+{
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+#colors button
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 0px;
+}
+#black 
+{
+    background: black;
+}
+#pink 
+{
+    background: pink;
+}
+#red
+{
+    background: red;
+}
+#green 
+{ 
+    background: green;
+}
+#blue 
+{
+    background: blue;
+}
+#orange 
+{
+    background: orange;
+}
+#gold
+{
+    background:gold;
+}
+#silver 
+{
+    background:silver;
+}
+#gray 
+{
+    background:gray;
+}
+#yellow
+{
+    background:yellow;
+}
+#darkblue
+{
+    background:darkblue;    
+}
+#cyan
+{
+    background:cyan;
+}
+#lightblue
+{
+    background:lightblue;
+}
+#brown 
+{
+    background:brown;
+}
+#darkgreen1
+{
+    background:#123008;
+}
+#bluex
+{
+    background:#234789;
+}
+#greenl
+{
+    background:#567765;
+}
+#green_dark
+{
+    background:#123321;
+}
+#lime
+{
+    background:lime;
+}
+#olive
+{
+    background:olive;
+}
+#purple
+{
+    background:purple;
+}
